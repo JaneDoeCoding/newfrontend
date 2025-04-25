@@ -1,0 +1,129 @@
+/* 页面背景和布局 */
+.welcome-section {
+    background: linear-gradient(to right, #B3E5FC, #A5D6A7); /* 清新蓝绿渐变背景 */
+    padding: 60px 40px;
+    color: #333;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  /* 欢迎文字部分 */
+  .greeting {
+    flex: 1;
+    margin-right: 40px; /* 增加右边的空隙 */
+    text-align: left; /* 左对齐 */
+  }
+  
+  .greeting h1 {
+    font-size: 3rem;
+    color: #2E7D32; 
+    font-weight: bold;
+    background: linear-gradient(to right,#66BB6A, #2E7D32); /* 渐变的温暖橙色 */
+    -webkit-background-clip: text;
+    color: transparent;
+    font-family: 'Poppins', sans-serif; /* 更柔和的标题字体 */
+  }
+  
+  .greeting p {
+    font-size: 1.2rem;
+    color: #666; /* 中性灰色文字 */
+    margin-top: 15px;
+    font-family: 'Lato', sans-serif; /* 更柔和的内容字体 */
+    line-height: 1.6;
+  }
+  
+  /* 使命和初衷部分 */
+  /* 使命和初衷部分 */
+.mission {
+    background: linear-gradient(to right, #B3E5FC, #A5D6A7); /* 与主页面保持一致 */
+    border-radius: 12px;
+    padding: 40px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    min-width: 300px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: left;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  
+  .mission h2 {
+    font-size: 2.5rem; /* 调整标题的字体大小 */
+    color: #2E7D32; /* 温暖的橙色，保持与主页面一致 */
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif; /* 更柔和的标题字体 */
+    text-align: center; /* 标题居中对齐 */
+  }
+  
+  .mission p {
+    font-size: 1.1rem;
+    color: #333; /* 深色文字 */
+    margin: 15px 0;
+    line-height: 1.8;
+    font-family: 'Lato', sans-serif; /* 更柔和的内容字体 */
+    max-width: 800px; /* 限制文本宽度，避免过于拉长 */
+    text-align: justify; /* 两端对齐 */
+  }
+  
+  /* 鼠标滑动后渐变效果 */
+  .mission p:last-child {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #2E7D32; /* 温暖的橙色 */
+    margin-top: 20px;
+  }
+  
+  /* 动画和过渡效果 */
+  .welcome-section,
+  .mission {
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .welcome-section:hover,
+  .mission:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* 响应式设计：小屏幕上调整字体大小和间距 */
+  @media (max-width: 768px) {
+    .welcome-section {
+      padding: 20px 10px;
+      flex-direction: column; /* 竖排布局 */
+      align-items: center;
+      text-align: center;
+    }
+  
+    .greeting {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+  
+    .mission {
+      margin-top: 20px;
+      text-align: center;
+    }
+  
+    .greeting h1 {
+      font-size: 2rem;
+    }
+  
+    .mission h2 {
+      font-size: 1.8rem;
+    }
+  
+    .mission p {
+      font-size: 1rem;
+    }
+  }
+  

@@ -19,7 +19,7 @@ const ProductList: React.FC = () => {
 
   // 请求数据
   useEffect(() => {
-    fetch("http://localhost:5000/products")
+    fetch("https://newbackend-8mgs.onrender.com/products")
       .then((response) => response.json())
       .then((data) => {
         setProducts(data);

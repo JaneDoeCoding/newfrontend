@@ -20,10 +20,10 @@ const WelcomeSection: React.FC = () => {
         <div className="mission">
           <h2>Mission & Purpose</h2>
           <p>
-            In 2019, I first came across the field of food nutrition, and that's when I discovered fish products. Known for their high protein and low-fat characteristics, fish products are popular worldwide and are often considered healthy food options. This sparked an idea in me – I wanted to help more people understand the nutritional value of fish products and, through scientific data, assist them in making healthier dietary choices.
+            In 2019, I first came across the field of food nutrition, and that's when I discovered fish products. Known for their high protein and low-fat characteristics, fish products are popular worldwide and are often considered healthy food options. This sparked an idea in me. I wanted to help more people understand the nutritional value of fish products and, through scientific data, assist them in making healthier dietary choices.
           </p>
           <p>
-            In 2025, I learned full-stack development during my studies, gaining both front-end and back-end skills. So, I decided to create this website – "Fish Products Nutritional Analysis" – through which I aim to provide nutritional analysis content on fish products, helping people not only enjoy the taste but also better understand the benefits they offer.
+            In 2025, I learned full-stack development during my studies, gaining both front-end and back-end skills. So, I decided to create this website, "Fish Products Nutritional Analysis", through which I aim to provide nutritional analysis content on fish products, helping people not only enjoy the taste but also better understand the benefits they offer.
           </p>
           <p>
             My mission is to bring technology and food together, helping people make better dietary choices through data and promoting the adoption of healthy lifestyles.
